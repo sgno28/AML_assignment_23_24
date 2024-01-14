@@ -1,3 +1,4 @@
 # ignore datasets
 Datasets/pathmnist.npz
 Datasets/pneumoniamnist.npz
+.venv

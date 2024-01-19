@@ -30,7 +30,7 @@ def task_a_from_final_model():
     test_labels = data['test_labels']
     images, labels = extract_test_data_and_conv(test_images, test_labels, 1)
     acc = load_model_and_predict('A/balanced_model_91', images, labels)
-    print("Acc for Task A from Final Model:", acc)
+    print("Acc for Task A from latest saved model:", acc)
 
 def task_b_from_final_model():
     data = np.load('Datasets/pathmnist.npz')
@@ -39,13 +39,13 @@ def task_b_from_final_model():
     images, labels = extract_test_data_and_conv(test_images, test_labels, 0)
 
     acc = load_model_and_predict('B/taskB_model', images, labels)
-    print("Acc for Task B from Final Model:", acc)
+    print("Acc for Task B from latest saved model:", acc)
 
 def main():
     print("1. Run task A from scratch")
     print("2. Run task B from scratch")
-    print("3. Run task A from final model (testing set only)")
-    print("4. Run task B from final model (testing set only)")
+    print("3. Run task A from latest saved model (testing set only)")
+    print("4. Run task B from latest saved model (testing set only)")
 
     choice = input("Please select an option (1-4): ")
 

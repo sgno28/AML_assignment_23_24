@@ -40,7 +40,7 @@ print(c)
 # In[ ]:
 
 
-dataset = np.load('../Datasets/pathmnist.npz')
+dataset = np.load('Datasets/pathmnist.npz')
 print("dataset keys: ", pd.DataFrame(dataset).head())
 # extract images
 train_images = dataset['train_images']

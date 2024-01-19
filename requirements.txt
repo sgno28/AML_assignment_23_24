@@ -67,6 +67,18 @@ nbformat==5.9.2
 nest-asyncio==1.5.8
 notebook_shim==0.2.3
 numpy==1.26.3
+nvidia-cublas-cu12==12.2.5.6
+nvidia-cuda-cupti-cu12==12.2.142
+nvidia-cuda-nvcc-cu12==12.2.140
+nvidia-cuda-nvrtc-cu12==12.2.140
+nvidia-cuda-runtime-cu12==12.2.140
+nvidia-cudnn-cu12==8.9.4.25
+nvidia-cufft-cu12==11.0.8.103
+nvidia-curand-cu12==10.3.3.141
+nvidia-cusolver-cu12==11.5.2.141
+nvidia-cusparse-cu12==12.1.2.141
+nvidia-nccl-cu12==2.16.5
+nvidia-nvjitlink-cu12==12.2.140
 oauthlib==3.2.2
 opt-einsum==3.3.0
 overrides==7.4.0
@@ -86,6 +98,8 @@ pure-eval==0.2.2
 pyasn1==0.5.1
 pyasn1-modules==0.3.0
 pycparser==2.21
+pydot==2.0.0
+pydotplus==2.0.2
 Pygments==2.17.2
 pyparsing==3.1.1
 python-dateutil==2.8.2
@@ -110,7 +124,7 @@ soupsieve==2.5
 stack-data==0.6.3
 tensorboard==2.15.1
 tensorboard-data-server==0.7.2
-tensorflow==2.15.0.post1
+tensorflow @ https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow-2.15.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
 tensorflow-estimator==2.15.0
 tensorflow-io-gcs-filesystem==0.35.0
 termcolor==2.4.0

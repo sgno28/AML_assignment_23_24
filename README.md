@@ -1,5 +1,11 @@
 # AML_assignment_23_24
 
+SN: 20058670
+
+This is the repository used to create the CNN model for solving tasks A and B in the ELEC0134 coursework.
+
+# To run:
+
 ```python
 # python make venv and activate venv
 python -m venv .venv

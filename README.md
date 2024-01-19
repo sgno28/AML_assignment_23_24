@@ -3,7 +3,7 @@
 SN: 20058670
 
 This is the repository used to create the CNN model for solving tasks A and B in the ELEC0134 coursework.
-
+MUST BE USING PYTHON 3.10
 # To run:
 
 ```python
